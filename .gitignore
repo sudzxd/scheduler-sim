@@ -1,0 +1,37 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv/
+env/
+
+# UV package manager
+uv.lock
+
+# Model checkpoints and training outputs
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Data files
+*.json
+*.csv
+*.parquet
+test_trace.*
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
